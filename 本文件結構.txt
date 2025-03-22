@@ -1,0 +1,60 @@
+本文件結構
+複製
+my-repository/
+│
+├── index.html         # 主要的 HTML 文件
+├── styles.css         # （可選）CSS 文件，用於樣式
+└── script.js          # （可選）JavaScript 文件，用於互動
+1. index.html
+這是主要的 HTML 文件，GitHub Pages 會尋找這個文件作為入口。以下是一個簡單的範例：
+
+複製
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的 GitHub 頁面</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 引入 CSS -->
+</head>
+<body>
+    <header>
+        <h1>歡迎來到我的 GitHub 頁面</h1>
+    </header>
+    <section>
+        <h2>關於我</h2>
+        <p>這是一個示範的 GitHub 頁面。</p>
+    </section>
+    <script src="script.js"></script> <!-- 引入 JavaScript -->
+</body>
+</html>
+2. styles.css（可選）
+這是一個 CSS 文件，用於設計頁面的樣式。以下是一個簡單的範例：
+
+複製
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+3. script.js（可選）
+如果你需要添加互動功能，可以使用 JavaScript。以下是一個簡單的範例：
+
+複製
+console.log("歡迎來到我的 GitHub 頁面！");
